@@ -1,6 +1,6 @@
 const fileListContainer = document.getElementById('file-list');
 
-axios.get('https://api.github.com/repos/seu-username/seu-repositorio/contents')
+axios.get('https://api.github.com/repos/joaopedrovga/ModelosGLTF/contents')
     .then(response => {
         const files = response.data;
         files.forEach(file => {
